@@ -14,7 +14,7 @@ Bu repo [Patika.dev](https://www.patika.dev) *PatikaStore* ödevi için oluştur
 Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
 
 ```bash
-git clone https://github.com/yunussukrugulten/JSClockOdev.git
+git clone https://github.com/yunussukrugulten/PatikaStore.git
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Projeyi cloneladıktan sonra Visual Studio Code programında açınız.
 
 Linux için:
 ```linux
-cd JSClockOdev
+cd PatikaStore
 code .
 ```
 
