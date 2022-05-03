@@ -1,10 +1,15 @@
 import React from 'react';
-import {StyleSheet, Text, View, FlatList} from 'react-native';
-//components
+import {
+  StyleSheet,
+  Text,
+   View,
+   FlatList
+} from 'react-native';
+
+
 import PatikaSearchBar from './components/searchBar';
 import PatikaProductCard from './components/productCard';
-//data
-import productData from './components/data/Products.json';
+import PatikaProductData from './components/data/Products.json';
 
 export default function App() {
   const renderProducts = ({item}) => <PatikaProductCard products={item} />;
@@ -16,7 +21,7 @@ export default function App() {
                 numColumns={2}
                 ListHeaderComponent={() => (<PatikaSearchBar />)}
                 keyExtractor={item => item.id.toString()}
-                data={productData}
+                data={PatikaProductData}
                 renderItem={renderProducts}
             />
         </View>
