@@ -2,8 +2,8 @@ import React from 'react';
 import {
   StyleSheet,
   Text,
-   View,
-   FlatList
+  View,
+  FlatList
 } from 'react-native';
 
 
