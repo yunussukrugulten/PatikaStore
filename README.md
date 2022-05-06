@@ -11,7 +11,7 @@ Bu repo [Patika.dev](https://www.patika.dev) *PatikaStore* ödevi için oluştur
 
 ## Installation
 
-Öncelikle projeyi clonelayın. (Buraya sizin reponuzdan aldığınız link gelecek)
+Öncelikle projeyi clonelayın.
 
 ```bash
 git clone https://github.com/yunussukrugulten/PatikaStore.git
